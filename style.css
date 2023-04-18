@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+header{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+header .container{
+    display: flex;
+    flex-direction: column;
+}
+.container_head{
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    background-color: #db5d73;
+    justify-content: flex-end;
+    padding: 0 30px;
+}
+.container_head>p{
+    font-size: 20px;
+    color: pink;
+    font-weight: 100;
+}
+.container_head>h1{
+    font-size: 60px;
+    color: white;
+}
+.container_leg{
+    height: 420px;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffd9df;
+    justify-content: flex-start;
+    padding: 0 30px;
+}
+.container_leg>p{
+    font-size: 20px;
+    color: #db5d73;
+    font-weight: 100;
+}
+.container_leg>h1{
+    font-size: 60px;
+}
+.navbar{
+    padding: 0 40px;
+    height: 80px;
+    background-color: #db5d73;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navbar_elements{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_others{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+.nav_name p{
+    color: #ffd9df;
+}
+.nav_others a{
+    text-decoration: none;
+    color: white;
+}
+.box_aboutme{
+    background-color: #db5d73;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.aboutme_content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.aboutme_content>h1{
+    font-size: 50px;
+    color: #ffd9df;
+}
+.aboutme_content>p{
+    font-size: 20px;
+    color: white;
+}
+.button_aboutme button{
+    color: #ffebee;
+    width: 200px;
+    height: 50px;
+    background-color: #db5d73;
+    border: 1px solid white;
+    border-radius: 10px;
+    transition: 300ms;
+    cursor: pointer;
+}
+.button_aboutme button:hover{
+    background-color: #ffebee;
+    color: #db5d73;
+}
+.project{
+    background-color: #ffd9df;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    padding: 50px;
+}
+.project h1{
+    font-size: 60px;
+}
+.project p{
+    font-size: 20px;
+}
