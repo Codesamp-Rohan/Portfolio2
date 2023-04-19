@@ -13,3 +13,11 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+
+
+
+// $(document).ready(function() {
+//   var scrollorama = $.scrollorama({
+//       blocks:'.scrollblock'
+//   });
+// });

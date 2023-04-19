@@ -27,10 +27,22 @@ header .container{
     font-size: 20px;
     color: pink;
     font-weight: 100;
+    animation-name: baba;
+    animation-duration: 1200ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: inherit;
 }
 .container_head>h1{
     font-size: 60px;
     color: white;
+}
+@keyframes baba {
+    from{
+        font-size: 0px;
+    }
+    to{
+        font-size: 20px;
+    }
 }
 .container_leg{
     height: 420px;
@@ -58,6 +70,7 @@ header .container{
     align-items: center;
 }
 .sticky{
+    z-index: 1;
     position: fixed;
     top: 0;
     width: 100%;
@@ -84,7 +97,7 @@ header .container{
 }
 .box_aboutme{
     background-color: #db5d73;
-    height: 600px;
+    height: 598px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -92,6 +105,7 @@ header .container{
     gap: 40px;
 }
 .aboutme_content{
+    padding: 10px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -125,10 +139,208 @@ header .container{
     justify-content: center;
     height: 100px;
     padding: 50px;
+    gap: 20px;
 }
 .project h1{
-    font-size: 60px;
+    font-size: 50px;
+    color: #db5d73;
 }
 .project p{
     font-size: 20px;
 }
+.real_project{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: #ffd9df;
+    border-bottom: dotted;
+}
+.projectimg img{
+    filter: brightness(50%);
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+    border: 20px solid #ff3557;
+}
+.project_content{
+    padding: 10px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.project_content h1{
+    color: #db5d73;
+}
+.projectlist{
+    padding: 20px;
+    display: flex;
+    gap: 40px;
+}
+.project_button{
+    color: #db5d73;
+    width: 200px;
+    height: 50px;
+    background-color: #ffd9df;
+    border: 1px solid white;
+    border-radius: 10px;
+    transition: 300ms;
+    cursor: pointer;
+}
+.project_button:hover{
+    background-color: #db5d73;
+    color: #ffd9df;
+}
+.project_button a{
+    text-decoration: none;
+    color: #db5d73;
+}
+.project_button a:hover{
+    color: #ffd9df;
+}
+#project2{
+    flex-direction: row-reverse;
+}
+#project2 .project_content{
+    align-items: flex-end;
+}
+.allprojectbutton{
+    display: flex;
+    background-color: #ffd9df;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.platform{
+    background-color: #db5d73;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+.platform h1{
+    color: #ffd9df;
+}
+.platform_cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    gap: 20px;
+}
+.card{
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffd9df;
+    padding: 10px;
+    transition: 300ms;
+}
+.card:hover{
+    box-shadow: 2px 4px 0px rgb(255, 255, 255);
+}
+.language_content{
+    padding: 10px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.language_content a{
+    text-decoration: none;
+    color: #ff3557;
+}
+footer{
+    height: 200px;
+    background-color: #db5d73;
+}
+.support_footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 30px;
+    gap: 10px;
+}
+.support_footer>p{
+    font-size: 14px;
+    color: #ffd9df;
+}
+.support_button{
+    color: #ffebee;
+    width: 200px;
+    height: 50px;
+    background-color: #db5d73;
+    border: 1px solid white;
+    border-radius: 10px;
+    transition: 300ms;
+    cursor: pointer;
+}
+.support_button:hover{
+    background-color: #ffebee;
+    color: #db5d73;
+}
+.social_media{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 40px;
+    align-items: center;
+    color: #ffd9df;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.icons img{
+    width: 30px;
+}
+
+@media screen and (max-width: 800px) {
+    .real_project{
+        flex-direction: column;
+    }
+    #project2{
+        flex-direction: column;
+    }
+    #project3{
+        flex-direction: column;
+    }
+    #project2 .project_content{
+        align-items: start;
+    }
+}
+@media screen and (max-width: 500px) {
+    .real_project{
+        align-items: center;
+        padding: 2px;
+    }
+    #project2{
+        align-items: center;
+        padding: 2px;
+    }
+    #project3{
+        align-items: center;
+        padding: 2px;
+    }
+    .setting{
+        display: none;
+    }
+    .project{
+        height: 200px;
+    }
+}
+@media screen and (max-width: 420px) {
+    .real_project img{
+        width: 320px;
+    }
+}
+
+
+
+
+/* scrollorama.animate('project2',{
+    duration:400, property:'opacity',
+
+}) */
