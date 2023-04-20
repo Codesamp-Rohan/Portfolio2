@@ -1,5 +1,5 @@
 //Navbar stick on Scroll
-window.onscroll = function() {myFunction()};
+window.onscroll = function () { myFunction() };
 
 
 var navbar = document.getElementById("navbar");
@@ -14,10 +14,27 @@ function myFunction() {
   }
 }
 
-
-
-// $(document).ready(function() {
-//   var scrollorama = $.scrollorama({
-//       blocks:'.scrollblock'
-//   });
-// });
+function changecolor() {
+  var ch = document.getElementById("container_head");
+  ch.classList.toggle("c-h");
+  var cl = document.getElementById("container_leg");
+  cl.classList.toggle("c-l");
+  var nb = document.getElementById("navbar");
+  nb.classList.toggle("nb");
+  var bam = document.getElementById("box_aboutme");
+  bam.classList.toggle("bam");
+  var btnam = document.getElementById("button_aboutme");
+  btnam.classList.toggle("btnam");
+  var prj = document.getElementById("project");
+  prj.classList.toggle("prj");
+  var prj1 = document.getElementById("project1");
+  prj1.classList.toggle("prj1");
+  var prj2 = document.getElementById("project2");
+  prj2.classList.toggle("prj2");
+  var prj3 = document.getElementById("project3");
+  prj3.classList.toggle("prj3");
+  var pf = document.getElementById("platform");
+  pf.classList.toggle("pf");
+  var sf = document.getElementById("support_footer");
+  sf.classList.toggle("sf");
+}
