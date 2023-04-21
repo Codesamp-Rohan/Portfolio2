@@ -37,4 +37,8 @@ function changecolor() {
   pf.classList.toggle("pf");
   var sf = document.getElementById("support_footer");
   sf.classList.toggle("sf");
+  var sm = document.getElementById("social_media");
+  sm.classList.toggle("sm");
+  var fsvg = document.getElementById("footer_svg");
+  fsvg.classList.toggle("fsvg");
 }

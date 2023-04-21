@@ -601,3 +601,19 @@ footer {
     background-color: #202020;
     color: #cced00;
 }
+
+.sm {
+    background-color: #cced00;
+}
+
+.sm .icons>a {
+    color: #202020;
+}
+
+.sm p {
+    color: #202020;
+}
+
+.fsvg {
+    fill: #cced00;
+}
