@@ -405,7 +405,7 @@ footer {
 
 /*TOGGGLE*/
 .c-h {
-    background-color: #cced00;
+    background-color: #363545;
 }
 
 .c-h>p {
@@ -413,7 +413,7 @@ footer {
 }
 
 .c-h>h1 {
-    color: black;
+    color: yellow;
 }
 
 .c-l {
@@ -421,7 +421,7 @@ footer {
 }
 
 .c-l>p {
-    color: #cced00;
+    color: #ffff36;
 }
 
 .c-l>h1 {
@@ -429,37 +429,42 @@ footer {
 }
 
 .nb {
-    background-color: #cced00;
+    background-color: #363545;
 }
 
 .nb .nav_name>p {
-    color: black;
+    color: white;
 }
 
 .nb .nav_others>a {
-    color: black;
+    color: whitesmoke;
 }
 
 .bam {
-    background-color: #cced00;
+    background-color: #363545;
 }
 
 .bam .aboutme_content>h1 {
-    color: black;
+    color: yellow;
 }
 
 .bam .aboutme_content>p {
-    color: black;
+    color: white;
 }
 
 .btnam button {
-    background-color: #cced00;
-    color: black;
+    background-color: #363545;
+    color: whitesmoke;
+    border: 1px solid #ffff36;
 }
 
 .btnam button:hover {
-    background-color: #202020;
-    color: #cced00;
+    background-color: yellow;
+    color: #363545;
+}
+
+.fsg {
+    fill: #ffff36;
 }
 
 .prj {
@@ -467,11 +472,11 @@ footer {
 }
 
 .prj>h1 {
-    color: #cced00;
+    color: yellow;
 }
 
 .prj>p {
-    color: #cced00;
+    color: white;
 }
 
 .prj1 {
@@ -479,29 +484,30 @@ footer {
 }
 
 .prj1 .project_content>h1 {
-    color: #cced00;
+    color: yellow;
 }
 
 .prj1 img {
-    border: 10px solid #cced00;
+    border: 10px solid white;
 }
 
 .prj1 .project_content>p {
-    color: #cced00;
+    color: white;
 }
 
 .prj1 .projectlist>li {
-    color: #cced00;
+    color: white;
 }
 
 .prj1 button {
     background-color: #202020;
-    color: #cced00;
+    color: whitesmoke;
+    border: 1px solid #ffff36;
 }
 
 .prj1 button:hover {
-    background-color: #cced00;
-    color: #202020;
+    background-color: yellow;
+    color: #363545;
 }
 
 .prj2 {
@@ -509,29 +515,30 @@ footer {
 }
 
 .prj2 .project_content>h1 {
-    color: #cced00;
+    color: #ffff36;
 }
 
 .prj2 img {
-    border: 10px solid #cced00;
+    border: 10px solid white;
 }
 
 .prj2 .project_content>p {
-    color: #cced00;
+    color: white;
 }
 
 .prj2 .projectlist>li {
-    color: #cced00;
+    color: white;
 }
 
 .prj2 button {
     background-color: #202020;
-    color: #cced00;
+    color: whitesmoke;
+    border: 1px solid #ffff36;
 }
 
 .prj2 button:hover {
-    background-color: #cced00;
-    color: #202020;
+    background-color: yellow;
+    color: #363545;
 }
 
 .prj3 {
@@ -539,81 +546,110 @@ footer {
 }
 
 .prj3 .project_content>h1 {
-    color: #cced00;
+    color: yellow;
 }
 
 .prj3 img {
-    border: 10px solid #cced00;
+    border: 10px solid white;
 }
 
 .prj3 .project_content>p {
-    color: #cced00;
+    color: white;
 }
 
 .prj3 .projectlist>li {
-    color: #cced00;
+    color: white;
 }
 
 .prj3 button {
     background-color: #202020;
-    color: #cced00;
+    color: whitesmoke;
+    border: 1px solid #ffff36;
 }
 
 .prj3 button:hover {
-    background-color: #cced00;
-    color: #202020;
+    background-color: yellow;
+    color: #363545;
+}
+
+.ssvg {
+    fill: #202020;
+}
+
+.apb {
+    background-color: #202020;
+}
+
+.apb button {
+    background-color: #202020;
+    color: whitesmoke;
+    border: 1px solid #ffff36;
+}
+
+.apb button:hover {
+    background-color: yellow;
+    color: #363545;
 }
 
 .pf {
-    background-color: #cced00;
+    background-color: #363545;
 }
 
 .pf>h1 {
-    color: #202020;
+    color: #ffff36;
 }
 
 .pf .card {
-    background-color: #202020;
+    background-color: #fff;
 }
 
 .pf .language_content>a {
-    color: #cced00;
+    color: #363545;
 }
 
 .pf .language_content>p {
-    color: white;
+    color: #363545;
 }
 
 .sf {
-    background-color: #cced00;
+    background-color: #363545;
 }
 
 .sf>p {
-    color: #202020;
+    color: #fff;
 }
 
 .sf button {
-    background-color: #cced00;
-    color: #202020;
+    background-color: #363545;
+    color: whitesmoke;
+    border: 1px solid #ffff36;
 }
 
 .sf button:hover {
-    background-color: #202020;
-    color: #cced00;
+    background-color: yellow;
+    color: #363545;
 }
 
 .sm {
-    background-color: #cced00;
+    background-color: #363545;
 }
 
 .sm .icons>a {
-    color: #202020;
+    color: #fff;
 }
 
 .sm p {
-    color: #202020;
+    color: #fff;
 }
 
 .fsvg {
-    fill: #cced00;
+    fill: #363545;
+}
+
+.footer {
+    background-color: #363545;
+}
+
+.bdy {
+    background-color: yellow;
 }

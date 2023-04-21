@@ -39,6 +39,14 @@ function changecolor() {
   sf.classList.toggle("sf");
   var sm = document.getElementById("social_media");
   sm.classList.toggle("sm");
+  var apb = document.getElementById("allprojectbutton");
+  apb.classList.toggle("apb");
   var fsvg = document.getElementById("footer_svg");
   fsvg.classList.toggle("fsvg");
+  var fsg = document.getElementById("firstSVG");
+  fsg.classList.toggle("fsg");
+  var ssvg = document.getElementById("secondSVG");
+  ssvg.classList.toggle("ssvg");
+  document.body.classList.add('bdy');
+  document.footer.classList.add('footer');
 }
