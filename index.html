@@ -28,14 +28,16 @@
                     <p>ROHAN CHAUDHARY</p>
                 </div>
                 <div class="nav_others">
-                    <a href="#about" onclick="changecolor()">About</a>
+                    <a href="#about">About</a>
                     <a href="https://github.com/Codesamp-Rohan">Projects</a>
-                    <a class="setting" href="#setting">
-                        <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
-                        <lord-icon src="https://cdn.lordicon.com/dycatgju.json" trigger="hover"
-                            style="width:32px;height:32px;filter:invert(1)">
-                        </lord-icon>
-                    </a>
+                    <div class="onoffswitch">
+                        <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch"
+                            tabindex="0" checked onclick="changecolor()">
+                        <label class="onoffswitch-label" for="myonoffswitch">
+                            <span class="onoffswitch-inner"></span>
+                            <span class="onoffswitch-switch"></span>
+                        </label>
+                    </div>
                 </div>
             </div>
         </div>
