@@ -48,5 +48,4 @@ function changecolor() {
   var ssvg = document.getElementById("secondSVG");
   ssvg.classList.toggle("ssvg");
   document.body.classList.add('bdy');
-  document.footer.classList.add('footer');
 }
