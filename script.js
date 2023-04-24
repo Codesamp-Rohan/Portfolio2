@@ -47,5 +47,5 @@ function changecolor() {
   fsg.classList.toggle("fsg");
   var ssvg = document.getElementById("secondSVG");
   ssvg.classList.toggle("ssvg");
-  document.body.classList.toggle('bdy');
+  // document.body.classList.toggle('bdy');
 }
