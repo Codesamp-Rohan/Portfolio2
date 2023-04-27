@@ -49,3 +49,50 @@ function changecolor() {
   ssvg.classList.toggle("ssvg");
   // document.body.classList.toggle('bdy');
 }
+
+// gsap.fromTo("#img1", { x: -400, }, { x: 400, });
+// gsap.fromTo('#img1', { scrollTrigger: { scrub: true }, x: -200, duration: 1 }, { scrollTrigger: { scrub: true }, x: 100 })
+// gsap.fromTo('#img2', { scrollTrigger: { scrub: true }, x: 200, delay: 2 }, { scrollTrigger: { scrub: true }, x: -100 })
+
+// gsap.from('#img1', {
+//   scrollTrigger: {
+//     scrub: true
+//   },
+//   x: -200
+// })
+// gsap.from('#img2', {
+//   scrollTrigger: {
+//     scrub: true
+//   },
+//   x: 200
+// })
+// gsap.from('#img3', {
+//   scrollTrigger: {
+//     scrub: true
+//   },
+//   x: -200
+// })
+// gsap.from('#card1', {
+//   scrollTrigger: {
+//     scrub: true
+//   },
+//   x: 950
+// })
+// gsap.from('#card2', {
+//   scrollTrigger: {
+//     scrub: true
+//   },
+//   y: 350
+// })
+// gsap.from('#card3', {
+//   scrollTrigger: {
+//     scrub: true
+//   },
+//   y: 350
+// })
+// gsap.from('#card4', {
+//   scrollTrigger: {
+//     scrub: true
+//   },
+//   x: -950
+// })
